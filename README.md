@@ -2,7 +2,7 @@
 
 API for a machine learning model trained to detect writingtype from scanned document images. 
 The user sends the API an input image (in .jpg, .png or .tiff format) of a scanned document, and the API returns a reply 
-containing the predicted classification ('handwritten', 'typewritten' or 'combination') in Finnish, and the corresponding prediction confidence (a number
+containing the predicted classification ('handwritten', 'typewritten' or 'combination'), and the corresponding prediction confidence (a number
 between 0 and 1).   
 
 ## Model training and testing 

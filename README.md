@@ -1,5 +1,7 @@
 # WritingtypeAPI
 
+<img src="https://github.com/DALAI-hanke/WritingtypeAPI/assets/33789802/c855c031-9fd4-44ba-bd73-980b15bbd224.jpg"  width="60%" height="60%">
+
 API for a machine learning model trained to detect writingtype from scanned document images. 
 The user sends the API an input image (in .jpg, .png or .tiff format) of a scanned document, and the API returns a reply 
 containing the predicted classification ('handwritten', 'typewritten' or 'combination'), and the corresponding prediction confidence (a number
@@ -126,7 +128,7 @@ and then the image paths can be sent to the API with the http request:
 The output is in a .json form and consists of the predicted class label and the confidence for the prediction.
 So for instance the output could be 
 
-`{"prediction":"Käsinkirjoitettu","confidence":0.995205283164978}`
+`{"prediction":"Typewritten","confidence":0.995205283164978}`
 
 
 

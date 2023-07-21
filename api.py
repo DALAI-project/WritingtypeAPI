@@ -26,7 +26,7 @@ img_transforms = transforms.Compose([
     ])
 
 # Predicted class labels
-classes = {0:"Käsinkirjoitettu", 1:"Konekirjoitettu", 2:"Yhdistelmä"}
+classes = {0:"Handwritten", 1:"Typewritten", 2:"Combination"}
 
 try:
     # Initialize API Server

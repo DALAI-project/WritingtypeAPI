@@ -94,6 +94,8 @@ You can test the `/writingtype` endpoint of the API for example using curl:
 
 `curl http://127.0.0.1:8000/writingtype -F file=@/path/img.jpg`
 
+NB! Windows users might encounter following error `Invoke-WebRequest : A parameter cannot be found that matches parameter name 'F'.`. This can be bypassed by running a command `Remove-item alias:curl`.
+
 The second option is to send the path to the image file with the http request:
 
 `curl http://127.0.0.1:8000/writingtype_path?path=/path/img.jpg`

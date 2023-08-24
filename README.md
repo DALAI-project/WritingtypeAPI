@@ -1,6 +1,6 @@
 # WritingtypeAPI
 
-<img src="https://github.com/DALAI-hanke/WritingtypeAPI/assets/33789802/c855c031-9fd4-44ba-bd73-980b15bbd224.jpg"  width="60%" height="60%">
+<img src="image.jpg"  width="60%" height="60%">
 
 API for a machine learning model trained to detect writingtype from scanned document images. 
 The user sends the API an input image (in .jpg, .png or .tiff format) of a scanned document, and the API returns a reply 
